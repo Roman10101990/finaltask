@@ -1,0 +1,59 @@
+
+.container-fluid{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.btn{
+    position: absolute;
+    display: flex;
+    align-content: flex-start;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+.btn > a{
+    color: white;
+    text-decoration: none;
+}
+.btn > a: hover{
+    color: red;
+    text-decoration: none;
+    transition: .2s;
+}
+.aaa{
+    background: url(../img/img_articles_content/laser_beam/lro.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+.headText{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo_footer{
+    display: flex;
+        align-items: center;
+    padding-right: 5px;
+}
+.link_article{
+    color: black; 
+    transition: color 0.2s;
+}
+.link_article:hover{
+    color: red;
+    text-decoration: none;
+    transform: .2s;
+}
+.inner_footer{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: silver;
+    margin-top: 30px;
+}

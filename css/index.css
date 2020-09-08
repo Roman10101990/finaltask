@@ -1,0 +1,50 @@
+*{
+    background-image: url(../img/bg.jpg);
+}
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .1s ease-in-out;
+    transition: transform .1s ease-in-out;
+    transition: transform .1s ease-in-out,-webkit-transform .1s ease-in-out;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: center;
+    padding-top: 50px;
+}
+.img_nasa{
+     border: 1px solid silver;
+}
+.article_nasa{
+    margin: 15px;
+}
+
+.link_nasa{
+    text-align: center;
+    padding-top: 10px;
+    word-wrap:normal;
+}
+.link_article{
+    color: white; 
+    transition: color 0.2s;
+}
+.link_article:hover{
+    color: silver;
+    text-decoration: none;
+}
+.inner_footer{
+    display: flex;
+    justify-content: center;
+    color: silver;
+    margin-top: 30px;
+}
