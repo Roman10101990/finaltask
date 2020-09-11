@@ -17,7 +17,7 @@
     color: white;
     text-decoration: none;
 }
-.btn > a: hover{
+.btn > a:hover{
     color: red;
     text-decoration: none;
     transition: .2s;
